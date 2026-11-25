@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>MTR Mockup</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3e9d7; --panel:#fffaf0; --panel2:#f7eedd; --line:#e2d2b4; --ink:#4a3a2a; --muted:#8c7a63;
+  --accent:#c9783f; --accent-soft:#f6dcc3; --ok:#6f9a4a; --ok-soft:#e1ecd2; --prog:#d9a23a; --prog-soft:#fbecc8;
+  --side:#e9dcc3; --slot:#8b8b8b; --slot-in:#c6c6c6; --shadow:0 6px 18px rgba(90,60,30,.12);
+  --head:'Pixelify Sans', sans-serif;
+}
+body.night{
+  --bg:#211a15; --panel:#2d241d; --panel2:#362b22; --line:#4a3c2f; --ink:#f1e4cf; --muted:#b09a7e;
+  --accent:#f0a04b; --accent-soft:#4a3423; --ok:#9cc46d; --ok-soft:#2f3a24; --prog:#f2c14e; --prog-soft:#4a3b1c;
+  --side:#1a1410; --slot:#1b1612; --slot-in:#3d3229; --shadow:0 8px 24px rgba(0,0,0,.45);
+}
+body.meadow{
+  --bg:#e7efe0; --panel:#fbfdf7; --panel2:#f0f5e9; --line:#cfdcc2; --ink:#33402b; --muted:#76856a;
+  --accent:#5f8f5a; --accent-soft:#dbe9d3; --ok:#4f8a55; --ok-soft:#d6ead4; --prog:#e09a52; --prog-soft:#fbe5cf;
+  --side:#d5e3c8; --slot:#9aa58f; --slot-in:#e3eadb; --shadow:0 6px 18px rgba(50,80,40,.12);
+  --head:'Nunito', sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.4 Nunito,sans-serif;width:1440px;height:900px;overflow:hidden;display:flex}
+.side{width:250px;background:var(--side);padding:18px 14px;display:flex;flex-direction:column;gap:14px;border-right:1px solid var(--line)}
+.brand{font-family:var(--head);font-size:20px;font-weight:700;display:flex;gap:8px;align-items:center}
+.brand img{width:28px;height:28px;image-rendering:pixelated}
+.brand small{display:block;font:600 11px Nunito;color:var(--muted)}
+.lbl{font:800 11px Nunito;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:6px 4px 0}
+.proj{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;box-shadow:var(--shadow)}
+.proj.dim{background:transparent;box-shadow:none}
+.proj b{display:block;font-size:13.5px}
+.proj span{font-size:11.5px;color:var(--muted)}
+.bar{height:6px;border-radius:9px;background:var(--line);margin-top:7px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:9px}
+.tabs{display:flex;flex-direction:column;gap:4px;margin-top:auto}
+.tab{padding:8px 12px;border-radius:10px;font-weight:700;color:var(--muted)}
+.tab.on{background:var(--panel);color:var(--ink)}
+.main{flex:1;padding:18px 24px;display:flex;flex-direction:column;gap:14px;overflow:hidden}
+.top{display:flex;align-items:center;gap:16px}
+.top h1{font-family:var(--head);font-size:26px;margin:0;font-weight:700}
+.pill{padding:4px 10px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:800;font-size:12px}
+.ring{margin-left:auto;display:flex;align-items:center;gap:10px;font-weight:800}
+.ring .bar{width:220px;height:10px;margin:0}
+.tools{display:flex;gap:8px;align-items:center}
+.search{flex:1;max-width:340px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;color:var(--muted)}
+.btn{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 12px;font-weight:700;font-size:12.5px}
+.btn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.zone{font-family:var(--head);font-size:17px;font-weight:700;display:flex;align-items:center;gap:8px;margin-top:2px}
+.zone em{font:700 12px Nunito;color:var(--muted);font-style:normal}
+.sub{font:800 12px Nunito;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);display:flex;gap:8px;align-items:center}
+.sub:after{content:"";flex:1;height:1px;background:var(--line)}
+.group{background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.ghead{display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--panel2);border-bottom:1px solid var(--line)}
+.ghead b{font-size:15px}
+.farm{font-size:12px;font-weight:700;padding:3px 9px;border-radius:99px;background:var(--ok-soft);color:var(--ok)}
+.farm.no{background:var(--accent-soft);color:var(--accent)}
+.ghead .cnt{margin-left:auto;color:var(--muted);font-size:12px;font-weight:700}
+.row{display:grid;grid-template-columns:44px 1fr 150px 280px;align-items:center;gap:12px;padding:7px 14px;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.slot{width:40px;height:40px;background:var(--slot-in);border:2px solid;border-color:var(--slot) #fff #fff var(--slot);display:grid;place-items:center}
+body.night .slot{border-color:#120e0b #4f4234 #4f4234 #120e0b}
+body.meadow .slot{border-radius:9px;border:1px solid var(--line);background:var(--panel2)}
+.slot img{width:30px;height:30px;image-rendering:pixelated;object-fit:cover;object-position:top}
+.nm b{font-size:14px}.nm small{display:block;color:var(--muted);font-size:11.5px}
+.qty{font-weight:800;text-align:right}.qty small{display:block;color:var(--muted);font-weight:600;font-size:11px}
+.st{display:flex;gap:4px;justify-content:flex-end}
+.st span{padding:5px 10px;border-radius:8px;font-size:12px;font-weight:700;border:1px solid var(--line);color:var(--muted)}
+.st .a{background:var(--panel2);color:var(--ink)}
+.st .p{background:var(--prog);color:#fff;border-color:var(--prog)}
+.row.prog{background:var(--prog-soft);grid-template-columns:44px 1fr 150px 280px;border-left:4px solid var(--prog)}
+.more{grid-column:2/5;display:flex;gap:18px;align-items:flex-start;padding:4px 0 6px}
+.inp{display:flex;align-items:center;gap:6px}
+.inp .box{background:var(--panel);border:2px solid var(--prog);border-radius:8px;padding:5px 10px;font-weight:800;width:90px}
+.inp .mini{font-size:11px;padding:4px 7px;border-radius:7px;background:var(--panel);border:1px solid var(--line);font-weight:700}
+.raw{display:flex;gap:6px;align-items:center;font-size:12.5px;flex-wrap:wrap}
+.raw .r{display:flex;align-items:center;gap:5px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:3px 8px 3px 4px;font-weight:700}
+.raw img{width:20px;height:20px;image-rendering:pixelated;object-fit:cover;object-position:top}
+.raw .ar{color:var(--muted);font-weight:800}
+.pb{height:8px;border-radius:9px;background:var(--panel);overflow:hidden;width:240px;margin-top:6px;border:1px solid var(--line)}
+.pb i{display:block;height:100%;background:var(--prog)}
+.howto{font-size:12px;color:var(--muted);font-weight:600}
+.owned{opacity:.75}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ownedbar{margin-top:auto;background:var(--ok-soft);border:1px dashed var(--ok);border-radius:12px;padding:10px 14px;display:flex;gap:10px;align-items:center;font-weight:800;color:var(--ok)}
+.ownedbar .ic{display:flex;gap:3px}
+.ownedbar img{width:22px;height:22px;image-rendering:pixelated;object-fit:cover;object-position:top}
+.ownedbar span.t{margin-left:auto;font-size:12px}
+.gtotal{display:none;align-items:center;gap:8px;padding:8px 14px;background:var(--accent-soft);border-bottom:1px solid var(--line);font-size:12.5px;font-weight:700}
+body.g .gtotal{display:flex}
+.gtotal .gl{color:var(--accent);font-weight:800}
+.gtotal .r{display:flex;align-items:center;gap:5px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:3px 8px 3px 4px}
+.gtotal img{width:20px;height:20px;image-rendering:pixelated;object-fit:cover;object-position:top}
+.gtotal .ar{color:var(--muted)}
+.pb2{margin-left:auto;width:160px;height:8px;border-radius:9px;background:var(--panel);border:1px solid var(--line);overflow:hidden}
+.pb2 i{display:block;height:100%;background:var(--accent)}
+.theme-name{position:absolute;right:24px;bottom:12px;font:800 11px Nunito;color:var(--muted);letter-spacing:.1em}
+</style>
+</head>
+<body>
+<aside class="side">
+  <div class="brand"><img src="icons/spruce_planks.png"><div>MTR Check list<small>by NguyenFinn</small></div></div>
+  <div class="lbl">Map · Polym 21.11</div>
+  <div class="proj"><b>Adventure Time Tree House</b><span>196 loại · 42%</span><div class="bar"><i style="width:42%"></i></div></div>
+  <div class="proj dim"><b>Nhà ga Polym</b><span>88 loại · 71%</span><div class="bar"><i style="width:71%"></i></div></div>
+  <div class="lbl">Map · Survival riêng</div>
+  <div class="proj dim"><b>Cối xay gió</b><span>34 loại · 10%</span><div class="bar"><i style="width:10%"></i></div></div>
+  <div class="btn" style="text-align:center">📂 Chọn file Litematica…</div>
+  <div class="tabs"><div class="tab on">📋 Nguyên liệu</div><div class="tab">🗺️ Map & Farm</div><div class="tab">⚙️ Cài đặt</div></div>
+</aside>
+<main class="main">
+  <div class="top"><h1>Adventure Time Tree House</h1><span class="pill">Polym 21.11</span>
+    <div class="ring">83 / 196 loại<div class="bar"><i style="width:42%"></i></div>42%</div></div>
+  <div class="tools"><div class="search">🔍 Tìm item…</div>
+    <span class="btn on">Farm ra nhiều loại nhất</span><span class="btn">Số lượng</span><span class="btn">Tên A–Z</span><span class="btn">⇅</span>
+    <span class="btn" style="margin-left:auto">VI / EN / Song song</span></div>
+
+  <div class="zone">⛏️ Chưa sở hữu <em>113 loại · 61 820 khối</em></div>
+  <div class="sub">🌱 Farm được</div>
+
+  <div class="group">
+    <div class="ghead"><b>Spruce · Vân sam</b><span class="farm">✔ Tree Farm (Spruce) · đã có</span><span class="cnt">8 loại · 10 145 khối</span></div>
+    <div class="gtotal" id="gt"><span class="gl">🧺 Tổng nguyên liệu thô cả nhóm</span>
+      <span class="r"><img src="icons/spruce_log.png"><b>11 214</b> Spruce Log cần</span>
+      <span class="ar">·</span><span class="r"><img src="icons/spruce_log.png"><b>6 521</b> còn thiếu</span>
+      <span class="ar">≈ 3.8 shulker</span>
+      <span class="pb2"><i style="width:42%"></i></span><span class="ar">42%</span></div>
+    <div class="row prog">
+      <div class="slot"><img src="icons/stripped_spruce_wood.png"></div>
+      <div class="nm"><b>Stripped Spruce Wood</b><small>Gỗ vân sam đã tước vỏ</small></div>
+      <div class="qty">7 992<small>124 stack + 56 · 4.6 shulker</small></div>
+      <div class="st"><span>Chưa có</span><span class="p">Đang thu thập</span><span>Đã đủ</span></div>
+      <div class="more">
+        <div><div class="inp">Đã gom <span class="box">3 520</span><span class="mini">+64</span><span class="mini">+1728</span></div>
+          <div class="pb"><i style="width:44%"></i></div></div>
+        <div class="raw"><span class="ar">Nguyên liệu thô:</span>
+          <span class="r"><img src="icons/spruce_log.png">10 656 Spruce Log</span><span class="ar">→ còn thiếu</span><span class="r"><img src="icons/spruce_log.png">5 963</span></div>
+      </div>
+    </div>
+    <div class="row"><div class="slot"><img src="icons/spruce_planks.png"></div><div class="nm"><b>Spruce Planks</b><small>Ván gỗ vân sam</small></div><div class="qty">1 262<small>19 stack + 46</small></div><div class="st"><span class="a">Chưa có</span><span>Đang thu thập</span><span>Đã đủ</span></div></div>
+    <div class="row"><div class="slot"><img src="icons/spruce_stairs.png"></div><div class="nm"><b>Spruce Stairs</b><small>Cầu thang gỗ vân sam</small></div><div class="qty">415<small>6 stack + 31</small></div><div class="st"><span class="a">Chưa có</span><span>Đang thu thập</span><span>Đã đủ</span></div></div>
+    <div class="row"><div class="slot"><img src="icons/spruce_trapdoor.png"></div><div class="nm"><b>Spruce Trapdoor</b><small>Cửa sập gỗ vân sam</small></div><div class="qty">201<small>3 stack + 9</small></div><div class="st"><span class="a">Chưa có</span><span>Đang thu thập</span><span>Đã đủ</span></div></div>
+  </div>
+
+  <div class="cols">
+    <div class="group">
+      <div class="ghead"><b>Wool · Len</b><span class="farm">Sheep Farm</span><span class="cnt">4 loại</span></div>
+      <div class="row" style="grid-template-columns:44px 1fr 110px"><div class="slot"><img src="icons/lime_wool.png"></div><div class="nm"><b>Lime Wool</b><small>Len vàng chanh</small></div><div class="qty">9 201<small>5.3 shulker</small></div></div>
+      <div class="row" style="grid-template-columns:44px 1fr 110px"><div class="slot"><img src="icons/green_wool.png"></div><div class="nm"><b>Green Wool</b><small>Len xanh lá</small></div><div class="qty">585<small>9 stack + 9</small></div></div>
+    </div>
+    <div class="group">
+      <div class="ghead"><b>Concrete · Bê tông</b><span class="farm">Sand + Gravel farm · Dye</span><span class="cnt">4 loại</span></div>
+      <div class="row" style="grid-template-columns:44px 1fr 110px"><div class="slot"><img src="icons/black_concrete.png"></div><div class="nm"><b>Black Concrete</b><small>Bê tông đen</small></div><div class="qty">8 388<small>4.9 shulker</small></div></div>
+      <div class="row" style="grid-template-columns:44px 1fr 110px"><div class="slot"><img src="icons/lime_concrete.png"></div><div class="nm"><b>Lime Concrete</b><small>Bê tông vàng chanh</small></div><div class="qty">4 720<small>2.7 shulker</small></div></div>
+    </div>
+  </div>
+
+  <div class="sub">🪨 Không farm được</div>
+  <div class="group">
+    <div class="ghead"><b>Deepslate · Đá phiến sâu</b><span class="farm no">✖ Không farm</span><span class="howto">Đào ở tầng Y&lt;0, dùng Efficiency V + Haste II</span><span class="cnt">9 loại</span></div>
+    <div class="row"><div class="slot"><img src="icons/deepslate_tiles.png"></div><div class="nm"><b>Deepslate Tiles</b><small>Ngói đá phiến sâu</small></div><div class="qty">18</div><div class="st"><span class="a">Chưa có</span><span>Đang thu thập</span><span>Đã đủ</span></div></div>
+  </div>
+
+  <div class="ownedbar">✔ Đã sở hữu · 83 loại <div class="ic"><img src="icons/dirt.png"><img src="icons/stone.png"><img src="icons/melon.png"><img src="icons/flower_pot.png"><img src="icons/water_bucket.png"><img src="icons/gold_block.png"></div><span class="t">Cuộn xuống để xem lại ▾</span></div>
+</main>
+<div class="theme-name" id="tn"></div>
+<script>
+const t=new URLSearchParams(location.search).get('t')||'cabin';
+if(t!=='cabin')document.body.classList.add(t);
+if(new URLSearchParams(location.search).get('g'))document.body.classList.add('g');
+document.getElementById('tn').textContent={cabin:'A · COZY CABIN',night:'B · CAMPFIRE NIGHT',meadow:'C · MEADOW PASTEL'}[t];
+</script>
+</body>
+</html>

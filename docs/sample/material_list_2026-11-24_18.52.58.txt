@@ -1,0 +1,206 @@
++------------------------------------+-------+---------+-----------------------------------+
+| Material List for schematic 'AdventureTimeTreeHouse (Converted Sponge)' (1 of 1 regions) |
++------------------------------------+-------+---------+-----------------------------------+
+| Item                               | Total | Missing |                         Available |
++------------------------------------+-------+---------+-----------------------------------+
+| Lime Wool                          |  9201 |    9201 |                                 0 |
+| Dirt                               |  8551 |    8551 |                                 1 |
+| Black Concrete                     |  8388 |    8388 |                                 0 |
+| Stripped Spruce Wood               |  7992 |    7992 |                                 0 |
+| Lime Concrete                      |  4720 |    4720 |                                 0 |
+| Stripped Oak Wood                  |  2088 |    2088 |                                 0 |
+| Melon                              |  1354 |    1354 |                                 0 |
+| Spruce Planks                      |  1262 |    1262 |                                 0 |
+| Stripped Jungle Wood               |   859 |     859 |                                 1 |
+| Block of Stripped Bamboo           |   830 |     830 |                                 0 |
+| Block of Bamboo                    |   829 |     829 |                                 0 |
+| Stone                              |   619 |     619 |                                 0 |
+| Green Stained Glass Pane           |   589 |     589 |                                 0 |
+| Green Wool                         |   585 |     585 |                                 0 |
+| Spruce Stairs                      |   415 |     415 |                                 1 |
+| Red Concrete                       |   378 |     378 |                                 0 |
+| Oak Wood                           |   286 |     286 |                                 0 |
+| Spruce Slab                        |   274 |     274 |                                 2 |
+| Waxed Weathered Cut Copper Slab    |   269 |     269 |                                 0 |
+| Lime Stained Glass Pane            |   210 |     210 |                                 0 |
+| Spruce Trapdoor                    |   201 |     201 |                                 1 |
+| Brown Wool                         |   182 |     182 |                                 0 |
+| Brown Terracotta                   |   125 |     125 |                                 0 |
+| Spruce Sign                        |   106 |     106 |                                 0 |
+| Flower Pot                         |    84 |      84 |                                 1 |
+| Jungle Slab                        |    82 |      82 |                                 0 |
+| Water Bucket                       |    74 |      74 |                                 0 |
+| Oak Slab                           |    61 |      61 |                                 0 |
+| Iron Chain                         |    57 |      57 |                                 0 |
+| Stripped Crimson Hyphae            |    49 |      49 |                                 0 |
+| Mangrove Slab                      |    46 |      46 |                                 0 |
+| Deepslate Tile Stairs              |    45 |      45 |                                 0 |
+| Jungle Planks                      |    44 |      44 |                                 0 |
+| Waxed Weathered Cut Copper Stairs  |    44 |      44 |                                 0 |
+| Green Terracotta                   |    43 |      43 |                                 0 |
+| Decorated Pot                      |    42 |      42 |                                 0 |
+| Birch Stairs                       |    39 |      39 |                                 0 |
+| Crimson Slab                       |    39 |      39 |                                 0 |
+| Cyan Stained Glass                 |    39 |      39 |                                 0 |
+| Sea Pickle                         |    39 |      39 |                                 0 |
+| Stripped Dark Oak Wood             |    39 |      39 |                                 0 |
+| Deepslate Brick Stairs             |    37 |      37 |                                 0 |
+| Cobbled Deepslate Slab             |    31 |      31 |                                 0 |
+| Cobbled Deepslate Stairs           |    31 |      31 |                                 0 |
+| Jungle Fence                       |    29 |      29 |                                 0 |
+| Light Blue Stained Glass           |    29 |      29 |                                 0 |
+| Crimson Trapdoor                   |    28 |      28 |                                 0 |
+| Jungle Trapdoor                    |    28 |      28 |                                 0 |
+| Crimson Stairs                     |    26 |      26 |                                 0 |
+| Jungle Sign                        |    25 |      25 |                                 0 |
+| Mud Brick Stairs                   |    25 |      25 |                                 0 |
+| Birch Trapdoor                     |    24 |      24 |                                 0 |
+| Stripped Mangrove Wood             |    22 |      22 |                                 0 |
+| Polished Deepslate Stairs          |    21 |      21 |                                 0 |
+| Bamboo Sign                        |    20 |      20 |                                 0 |
+| Oak Fence                          |    20 |      20 |                                 0 |
+| Block of Gold                      |    19 |      19 |                                 0 |
+| Deepslate Tiles                    |    18 |      18 |                                 0 |
+| Crimson Sign                       |    17 |      17 |                                 0 |
+| Mangrove Stairs                    |    17 |      17 |                                 0 |
+| Oak Sign                           |    17 |      17 |                                 0 |
+| Brick Slab                         |    16 |      16 |                                 0 |
+| Oak Stairs                         |    16 |      16 |                                 0 |
+| Oak Trapdoor                       |    16 |      16 |                                 0 |
+| Smooth Quartz Stairs               |    16 |      16 |                                 0 |
+| Bamboo Stairs                      |    15 |      15 |                                 0 |
+| Dark Oak Sign                      |    15 |      15 |                                 0 |
+| Jungle Stairs                      |    15 |      15 |                                 0 |
+| Waxed Oxidized Cut Copper Slab     |    15 |      15 |                                 0 |
+| Acacia Trapdoor                    |    14 |      14 |                                 0 |
+| Cobbled Deepslate Wall             |    14 |      14 |                                 0 |
+| Light Weighted Pressure Plate      |    14 |      14 |                                 0 |
+| Polished Deepslate                 |    13 |      13 |                                 0 |
+| Polished Deepslate Slab            |    13 |      13 |                                 0 |
+| Bamboo Trapdoor                    |    12 |      12 |                                 0 |
+| Brick Stairs                       |    12 |      12 |                                 0 |
+| Cobbled Deepslate                  |    12 |      12 |                                 0 |
+| Brown Carpet                       |    11 |      11 |                                 0 |
+| Deepslate Tile Slab                |    11 |      11 |                                 0 |
+| Granite Stairs                     |    11 |      11 |                                 0 |
+| Spruce Fence                       |    11 |      11 |                                 0 |
+| Turtle Egg                         |    11 |      11 |                                 0 |
+| Andesite Slab                      |    10 |      10 |                                 0 |
+| Bone Block                         |    10 |      10 |                                 0 |
+| Pale Oak Stairs                    |    10 |      10 |                                 0 |
+| Campfire                           |     9 |       9 |                                 0 |
+| Mangrove Planks                    |     9 |       9 |                                 0 |
+| Mangrove Trapdoor                  |     9 |       9 |                                 0 |
+| Torch                              |     9 |       9 |                                 0 |
+| Andesite Stairs                    |     8 |       8 |                                 0 |
+| Oak Planks                         |     8 |       8 |                                 0 |
+| Bamboo Slab                        |     7 |       7 |                                 0 |
+| Birch Fence                        |     7 |       7 |                                 0 |
+| Fern                               |     7 |       7 |                                 0 |
+| Green Concrete                     |     7 |       7 |                                 0 |
+| Packed Mud                         |     7 |       7 |                                 0 |
+| Stone Slab                         |     7 |       7 |                                 0 |
+| Yellow Terracotta                  |     7 |       7 |                                 0 |
+| Block of Raw Gold                  |     6 |       6 |                                 0 |
+| Deepslate Brick Slab               |     6 |       6 |                                 0 |
+| Dirt Path                          |     6 |       6 |                                 0 |
+| Granite Slab                       |     6 |       6 |                                 0 |
+| Ladder                             |     6 |       6 |                                 0 |
+| Lily Pad                           |     6 |       6 |                                 0 |
+| Mud Brick Wall                     |     6 |       6 |                                 0 |
+| Orange Carpet                      |     6 |       6 |                                 0 |
+| Pale Oak Trapdoor                  |     6 |       6 |                                 0 |
+| Polished Basalt                    |     6 |       6 |                                 0 |
+| Prismarine Brick Slab              |     6 |       6 |                                 0 |
+| Red Wool                           |     6 |       6 |                                 0 |
+| Seagrass                           |     6 |       6 |                                 0 |
+| White Wool                         |     6 |       6 |                                 0 |
+| Andesite Wall                      |     5 |       5 |                                 0 |
+| Birch Sign                         |     5 |       5 |                                 0 |
+| Iron Trapdoor                      |     5 |       5 |                                 0 |
+| Polished Blackstone Pressure Plate |     5 |       5 |                                 0 |
+| Brewing Stand                      |     4 |       4 |                                 0 |
+| Dark Oak Fence                     |     4 |       4 |                                 0 |
+| Gray Banner                        |     4 |       4 |                                 0 |
+| Lantern                            |     4 |       4 |                                 1 |
+| Mangrove Sign                      |     4 |       4 |                                 0 |
+| Pale Oak Slab                      |     4 |       4 |                                 0 |
+| Sandstone Slab                     |     4 |       4 |                                 0 |
+| Sandstone Stairs                   |     4 |       4 |                                 0 |
+| Stripped Birch Wood                |     4 |       4 |                                 0 |
+| White Banner                       |     4 |       4 |                                 0 |
+| Yellow Carpet                      |     4 |       4 |                                 0 |
+| Acacia Slab                        |     3 |       3 |                                 0 |
+| Azalea                             |     3 |       3 |                                 0 |
+| Bamboo Fence                       |     3 |       3 |                                 0 |
+| Birch Slab                         |     3 |       3 |                                 0 |
+| Composter                          |     3 |       3 |                                 0 |
+| Deepslate Bricks                   |     3 |       3 |                                 0 |
+| Jungle Pressure Plate              |     3 |       3 |                                 0 |
+| Light Gray Carpet                  |     3 |       3 |                                 0 |
+| Mangrove Propagule                 |     3 |       3 |                                 0 |
+| Mossy Cobblestone                  |     3 |       3 |                                 0 |
+| Sandstone Wall                     |     3 |       3 |                                 0 |
+| Spruce Door                        |     3 |       3 |                                 0 |
+| Warped Sign                        |     3 |       3 |                                 0 |
+| Waxed Oxidized Cut Copper Stairs   |     3 |       3 |                                 0 |
+| White Carpet                       |     3 |       3 |                                 0 |
+| Birch Pressure Plate               |     2 |       2 |                                 0 |
+| Blackstone Slab                    |     2 |       2 |                                 0 |
+| Copper Trapdoor                    |     2 |       2 |                                 0 |
+| Cyan Banner                        |     2 |       2 |                                 0 |
+| Diorite Wall                       |     2 |       2 |                                 0 |
+| Granite Wall                       |     2 |       2 |                                 0 |
+| Light Blue Banner                  |     2 |       2 |                                 0 |
+| Lightning Rod                      |     2 |       2 |                                 0 |
+| Loom                               |     2 |       2 |                                 0 |
+| Medium Amethyst Bud                |     2 |       2 |                                 0 |
+| Moss Block                         |     2 |       2 |                                 0 |
+| Oak Leaves                         |     2 |       2 |                                 0 |
+| Oak Pressure Plate                 |     2 |       2 |                                 0 |
+| Oak Sapling                        |     2 |       2 |                                 0 |
+| Purpur Stairs                      |     2 |       2 |                                 0 |
+| Rail                               |     2 |       2 |                                 0 |
+| Red Carpet                         |     2 |       2 |                                 0 |
+| Red Sandstone Wall                 |     2 |       2 |                                 0 |
+| Scaffolding                        |     2 |       2 |                                 0 |
+| Stone Button                       |     2 |       2 |                                 2 |
+| Stone Stairs                       |     2 |       2 |                                 1 |
+| Tripwire Hook                      |     2 |       2 |                                 0 |
+| Vines                              |     2 |       2 |                                 0 |
+| Amethyst Cluster                   |     1 |       1 |                                 0 |
+| Anvil                              |     1 |       1 |                                 1 |
+| Bamboo                             |     1 |       1 |                                 0 |
+| Bamboo Button                      |     1 |       1 |                                 0 |
+| Barrel                             |     1 |       1 |                                 0 |
+| Bell                               |     1 |       1 |                                 0 |
+| Blast Furnace                      |     1 |       1 |                                 0 |
+| Brick Wall                         |     1 |       1 |                                 0 |
+| Brown Mushroom                     |     1 |       1 |                                 0 |
+| Cake                               |     1 |       1 |                                 0 |
+| Cauldron                           |     1 |       1 |                                 0 |
+| Cherry Pressure Plate              |     1 |       1 |                                 0 |
+| Cherry Sapling                     |     1 |       1 |                                 0 |
+| Chiseled Quartz Block              |     1 |       1 |                                 0 |
+| Chiseled Tuff Bricks               |     1 |       1 |                                 0 |
+| Dark Oak Door                      |     1 |       1 |                                 0 |
+| Daylight Detector                  |     1 |       1 |                                 0 |
+| End Stone Brick Wall               |     1 |       1 |                                 0 |
+| Gray Carpet                        |     1 |       1 |                                 0 |
+| Large Amethyst Bud                 |     1 |       1 |                                 0 |
+| Mangrove Fence                     |     1 |       1 |                                 0 |
+| Mangrove Pressure Plate            |     1 |       1 |                                 0 |
+| Mud Brick Slab                     |     1 |       1 |                                 0 |
+| Oxidized Copper                    |     1 |       1 |                                 0 |
+| Oxidized Cut Copper                |     1 |       1 |                                 0 |
+| Red Sandstone                      |     1 |       1 |                                 0 |
+| Red Sandstone Slab                 |     1 |       1 |                                 0 |
+| Redstone Comparator                |     1 |       1 |                                 0 |
+| Skeleton Skull                     |     1 |       1 |                                 0 |
+| Small Amethyst Bud                 |     1 |       1 |                                 0 |
+| Spruce Fence Gate                  |     1 |       1 |                                 0 |
+| Stonecutter                        |     1 |       1 |                                 0 |
+| White Bed                          |     1 |       1 |                                 0 |
++------------------------------------+-------+---------+-----------------------------------+
+| Item                               | Total | Missing |                         Available |
++------------------------------------+-------+---------+-----------------------------------+

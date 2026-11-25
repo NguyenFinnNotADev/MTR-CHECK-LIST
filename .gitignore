@@ -1,0 +1,14 @@
+node_modules/
+dist/
+_release/
+src-tauri/target/
+src-tauri/gen/
+*.tsbuildinfo
+
+# Minecraft assets extracted from the game jar (Mojang's copyright, rebuild with scripts/prepare-assets.mjs)
+mc-assets/
+
+.claude/settings.local.json
+
+# local scratch
+docs/logo/source.png

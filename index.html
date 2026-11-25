@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTR Check list by NguyenFinn</title>
+    <style>
+      /* Splash shown instantly, before JS/CSS load; removed by the app once data is ready. */
+      #splash { position: fixed; inset: 0; z-index: 9999; display: grid; place-items: center; background: #1e1915; color: #f1e4cf;
+        font-family: 'Consolas', monospace; transition: opacity .35s ease, filter .35s ease; }
+      #splash.out { opacity: 0; filter: blur(4px); pointer-events: none; }
+      #splash .sp { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+      .sp-block { display: grid; grid-template-columns: repeat(3, 14px); gap: 3px; image-rendering: pixelated; }
+      .sp-block i { width: 14px; height: 14px; background: #7a5233; animation: sp-pop 1.2s infinite ease-in-out; }
+      .sp-block i:nth-child(-n+3) { background: #6ea83d; }
+      .sp-block i:nth-child(1) { animation-delay: 0s } .sp-block i:nth-child(2) { animation-delay: .08s } .sp-block i:nth-child(3) { animation-delay: .16s }
+      .sp-block i:nth-child(6) { animation-delay: .24s } .sp-block i:nth-child(9) { animation-delay: .32s } .sp-block i:nth-child(8) { animation-delay: .4s }
+      .sp-block i:nth-child(7) { animation-delay: .48s } .sp-block i:nth-child(4) { animation-delay: .56s } .sp-block i:nth-child(5) { animation-delay: .64s; background: #8f6440 }
+      @keyframes sp-pop { 0%, 70%, 100% { transform: scale(1); opacity: 1 } 35% { transform: scale(.55); opacity: .45 } }
+      .sp-title { font-size: 26px; letter-spacing: 2px; }
+      .sp-sub { font-size: 13px; opacity: .7; letter-spacing: 1px; }
+      .sp-bar { width: 160px; height: 6px; background: #3a2f26; overflow: hidden; }
+      .sp-bar i { display: block; height: 100%; width: 40%; background: #e0a04b; animation: sp-run 1s infinite ease-in-out; }
+      @keyframes sp-run { 0% { transform: translateX(-100%) } 100% { transform: translateX(250%) } }
+      .sp-logo { width: 128px; height: 128px; image-rendering: pixelated; animation: sp-bob 1.4s infinite steps(4, jump-none) alternate; }
+      @keyframes sp-bob { from { transform: translateY(0) } to { transform: translateY(-8px) } }
+      @media (prefers-reduced-motion: reduce) { .sp-block i, .sp-bar i, .sp-logo { animation: none } }
+    </style>
+  </head>
+  <body>
+    <div id="splash"><div class="sp">
+      <img class="sp-logo" src="/logo.png" alt="" />
+      <div class="sp-title">MTR Check list</div>
+      <div class="sp-sub">Đang tải dữ liệu…</div>
+      <div class="sp-bar"><i></i></div>
+    </div></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
